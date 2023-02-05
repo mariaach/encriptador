@@ -1,0 +1,91 @@
+*{
+    background: #081b54;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.tex-area{
+    border-style: dotted;
+    color: aliceblue;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color: aliceblue;}
+    .tex-area:focus{
+        outline: none;
+}
+
+.mensaje{
+    background-image: url(https://i.gifer.com/6Ug0.gif);
+    border-radius: 12px;
+    color: aliceblue;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 100px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background:  linear-gradient(#13359e, #071542);
+    border-radius: 12px;
+    color: aliceblue;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background:  linear-gradient(#13359e, #071542);
+    border-radius: 12px;
+    color: aliceblue;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar{
+    background:  linear-gradient( rgb(24, 189, 24), rgb(3, 58, 3));
+    border-radius: 12px;
+    color: aliceblue;
+    cursor: pointer;
+    height: 60px;
+    width: 100px;
+    margin-left: 105px;
+    margin-top: 255px;
+    position: absolute;
+}
+
+.informacion{
+    color: aliceblue;
+    margin-top: 5px;
+    font-size: 15px;
+    text-transform: lowercase;
+    font-style: italic;
+}
