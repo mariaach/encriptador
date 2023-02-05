@@ -89,3 +89,14 @@ main{
     text-transform: lowercase;
     font-style: italic;
 }
+
+.pie_de_pagina{
+    height: 20px;
+    text-align: bold;
+    color: aliceblue;
+    margin-bottom: 1%;
+    font-size: small;
+    margin-top: 180px;
+    margin-left: 1%;
+    align-self: flex-end;
+}
