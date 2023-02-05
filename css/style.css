@@ -22,7 +22,6 @@ main{
     border-style: dotted;
     color: aliceblue;
     margin-top: 90px;
-    text-transform: lowercase;
 }
 
 ::placeholder{
@@ -86,8 +85,8 @@ main{
     color: aliceblue;
     margin-top: 5px;
     font-size: 15px;
-    text-transform: lowercase;
     font-style: italic;
+
 }
 
 .pie_de_pagina{

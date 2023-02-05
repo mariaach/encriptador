@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,19 +17,19 @@
     </header>
     <main>
         <section>
-            <textarea class="tex-area" placeholder="Ingrese el texto aquí" ></textarea>
+            <textarea class="tex-area" placeholder="Ingrese el texto aquí" id="texto_ingresado"></textarea>
             <div>
                 <p class="informacion">*solo letras minúsculas y sin acentos</p>
             </div>
             <div class="botones">
-                <button class="btn-encriptar">Encriptar</button>
-                <button class="btn-desencriptar">Desencriptar</button>
+                <button  onclick="funEncryptarTexto()" class="btn-encriptar">Encriptar</button>
+                <button  onclick="funDesencryptarTexto()" class="btn-desencriptar">Desencriptar</button>
             </div>
         </section>
         <section>
-            <textarea class="mensaje">Mensaje</textarea>
+            <textarea id="texto_salida" class="mensaje">Mensaje</textarea>
             <div>
-                <button class="btn-copiar">Copiar</button>
+                <button onclick="copiar_pegar()" class="btn-copiar">Copiar</button>
             </div>
         </section>
     </main>   
