@@ -4,12 +4,17 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    
 }
 
 .logo{
     padding-top: 10px;
     margin-left: 10px;
+    margin-bottom: 40px;
     width: 10%;
+    height: 95px;
+    box-shadow: 10px 10px 30px 15px #6897e2;
+    border-radius: 12px;
 }
 
 main{
@@ -32,12 +37,17 @@ main{
 
 .mensaje{
     background-image: url(https://i.gifer.com/6Ug0.gif);
+    box-shadow: 5px 5px 30px 5px rgb(24, 189, 24);
     border-radius: 12px;
     color: aliceblue;
     margin-left: 100px;
     margin-top: 20px;
+    margin-right: 25px;
     padding: 100px;
     position: fixed;
+    flex-wrap: wrap;
+    min-width: 300px;
+   
 }
 
 .mensaje:focus{
@@ -51,42 +61,45 @@ main{
 
 .btn-encriptar{
     background:  linear-gradient(#13359e, #071542);
+    box-shadow: 10px 10px 30px 15px #6897e2;
     border-radius: 12px;
     color: aliceblue;
     cursor: pointer;
     height: 67px;
-    margin-left: 30px;
-    width: 328px;
+    margin-left: 5px;
+    width: 200px;
 }
 
 .btn-desencriptar{
     background:  linear-gradient(#13359e, #071542);
+    box-shadow: 10px 10px 30px 15px #6897e2;
     border-radius: 12px;
     color: aliceblue;
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
-    width: 328px;
+    width: 200px;
 }
 
 .btn-copiar{
     background:  linear-gradient( rgb(24, 189, 24), rgb(3, 58, 3));
+    box-shadow: 5px 5px 30px 5px rgb(24, 189, 24);
     border-radius: 12px;
     color: aliceblue;
     cursor: pointer;
     height: 60px;
     width: 100px;
-    margin-left: 105px;
+    margin-left: 530px;
     margin-top: 255px;
     position: absolute;
 }
 
 .informacion{
     color: aliceblue;
-    margin-top: 5px;
-    font-size: 15px;
-    font-style: italic;
-
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: medium;
 }
 
 .pie_de_pagina{
@@ -95,7 +108,13 @@ main{
     color: aliceblue;
     margin-bottom: 1%;
     font-size: small;
-    margin-top: 180px;
+    margin-top: 60px;
     margin-left: 1%;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 480px) {
+       
+    }
+
+

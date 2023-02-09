@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
     </header>
     <main>
         <section>
-            <textarea class="tex-area" placeholder="Ingrese el texto aquí" id="texto_ingresado"></textarea>
+            <div><textarea class="tex-area" placeholder="Ingrese el texto aquí" id="texto_ingresado"></textarea></div>
             <div>
                 <p class="informacion">*solo letras minúsculas y sin acentos</p>
             </div>
@@ -27,7 +27,9 @@
             </div>
         </section>
         <section>
-            <textarea id="texto_salida" class="mensaje">Mensaje</textarea>
+            <div>
+                <textarea id="texto_salida" class="mensaje">Esperando un mensaje...</textarea>
+            </div>
             <div>
                 <button onclick="copiar_pegar()" class="btn-copiar">Copiar</button>
             </div>
