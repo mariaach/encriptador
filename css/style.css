@@ -36,18 +36,14 @@ main{
 }
 
 .mensaje{
-    background-image: url(https://i.gifer.com/6Ug0.gif);
     box-shadow: 5px 5px 30px 5px rgb(24, 189, 24);
     border-radius: 12px;
     color: aliceblue;
-    margin-left: 100px;
+    margin-left: 95px;
     margin-top: 20px;
     margin-right: 25px;
-    padding: 100px;
-    position: fixed;
-    flex-wrap: wrap;
-    min-width: 300px;
-   
+    padding: 70px;
+    position: absolute; 
 }
 
 .mensaje:focus{
@@ -68,6 +64,7 @@ main{
     height: 67px;
     margin-left: 5px;
     width: 200px;
+    vertical-align: top;
 }
 
 .btn-desencriptar{
@@ -89,8 +86,8 @@ main{
     cursor: pointer;
     height: 60px;
     width: 100px;
-    margin-left: 530px;
-    margin-top: 255px;
+    margin-left: 470px;
+    margin-top: 195px;
     position: absolute;
 }
 
@@ -114,7 +111,15 @@ main{
 }
 
 @media screen and (max-width: 480px) {
-       
+    .btn-encriptar, .btn-desencriptar, .informacion{
+        width: auto;
+        margin: auto;
+        font-size: xx-large;
     }
+}
 
-
+@media screen and (max-width: 480px) {
+    .pie_de_pagina{
+    font-size: x-large;        
+        } 
+}
